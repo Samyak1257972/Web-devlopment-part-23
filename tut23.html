@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Navgation menu</title>
+    <style>
+        * {
+            font-family: 'Itim', cursive;
+        }
+        
+        .navbar {
+            background-color: aquamarine;
+            height: 80px;
+            border-radius: 40px;
+        }
+        
+        .logo {
+            float: left;
+            margin: -25px 78px;
+            font-weight: bolder;
+            font-size: 40px;
+        }
+        
+        ul {
+            float: right;
+            margin: 15px 20px;
+        }
+        
+        ul li a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .search {
+            float: left;
+            margin: 20px 90px;
+        }
+        
+        .search input {
+            background-color: cadetblue;
+            border: none;
+            border-radius: 20px;
+            padding: 12px 20px;
+            color: white;
+        }
+        
+        .search input::placeholder {
+            color: white;
+        }
+        
+        ul li :hover {
+            color: blueviolet;
+        }
+        
+        ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 15px 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <p>&lt Code! &gt</p>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Downloads</a></li>
+
+            </ul>
+            <div class="search">
+                <input type="search" placeholder="search">
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
